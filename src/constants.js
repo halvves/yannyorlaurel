@@ -1,7 +1,10 @@
+import laurelM4a from './media/laurel.m4a';
+import laurelWav from './media/laurel.wav';
+
 export const LAUREL_SAMPLES = [{
-  src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/476907/laurel.m4a',
+  src: laurelM4a,
   type: 'audio/mp4'
 }, {
-  src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/476907/laurel.wav',
+  src: laurelWav,
   type: 'audio/wav'
 }];
